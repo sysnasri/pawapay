@@ -24,6 +24,8 @@ infrastructure and deploy the web application
 # Lets get started 
 You need to install terraform and aws-iam-authenticator to perform this task. 
 
+clone the repository and base on your needs change terraform variables in k8s/variables.tf , variables are self explanatory. 
+
 There are two folders in this repository. init and k8s. 
 
         ● init: 
@@ -35,7 +37,6 @@ There are two folders in this repository. init and k8s.
 
                 cd k8s, terraform apply -auto-approve -var-file=~/.terraform.tfvars
 
-    clone the repository and base on your needs change terraform variables in k8s/variables.tf , variables are self explanatory. 
 
 
 
